@@ -1,0 +1,68 @@
+{
+  "produce": [
+    {
+      "id": "e31fe708-8135-4701-bc6a-b5d94250f2ee",
+      "name": "Granny Smith Apple",
+      "ppu": 0.49,
+      "tags": ["apple", "fruit", "green"],
+      "description": "The Granny Smith is a tip-bearing apple cultivar, which originated in Australia in 1868. It is named after Maria Ann Smith, who propagated the cultivar from a chance seedling. The tree is thought to be a hybrid of Malus sylvestris, the European wild apple, with the domesticated apple Malus pumila as the polleniser.",
+      "img": "Granny_smith_and_cross_section.jpg"
+    },
+    {
+      "id": "cf371506-7cff-4a31-9f0e-e281244f7ebd",
+      "name": "Pink Lady Apple",
+      "ppu": 0.39,
+      "tags": ["apple", "fruit", "pink"],
+      "description": "Cripps Pink is a cultivar (cultivated variety) of apple. It is one of several cultivars from which apples that meet quality standards can be sold under the trade mark name Pink Lady.[1] Cripps Pink was originally bred by John Cripps at the (then named) Western Australia Department of Agriculture by crossing the Australian apple Lady Williams with a Golden Delicious; the result is a combination of the firm, long-storing property of Lady Williams with the sweetness and lack of storage scald of Golden Delicious.[2] ",
+      "img": "Pink_lady_and_cross_section.jpg"
+    },
+    {
+      "id": "06bbc297-ab68-485f-ab96-d96462013913",
+      "name": "Golden Delicious Apple",
+      "ppu": 0.29,
+      "tags": ["apple", "fruit", "golden", "yellow"],
+      "description": "'Golden Delicious' is a yellow apple, one of the 15 most popular cultivars in the United States.[1] It is not closely related to 'Red Delicious'.[2]  'Golden Delicious' was one of four apples honored by the United States Postal Service in a 2013 set of four 33¢ stamps commemorating historic strains, joined by 'Northern Spy', 'Baldwin', and 'Granny Smith'.[3] ",
+      "img": "Mele_golden.jpg"
+    },
+    {
+      "id": "8cfa4a42-757d-4b4a-a2da-34ddd32ee302",
+      "name": "Broccoli",
+      "ppu": 0.49,
+      "tags": ["vegetable", "green"],
+      "description": "Broccoli is an edible green plant in the cabbage family (family Brassicaceae, genus Brassica) whose large flowering head, stalk and small associated leaves are eaten as a vegetable. The word broccoli comes from the Italian plural of broccolo, which means 'the flowering crest of a cabbage', and is the diminutive form of brocco, meaning 'small nail' or 'sprout'.[3] ",
+      "img": "Broccoli_and_cross_section_edit.jpg"
+    },
+    {
+      "id": "c5f6a44e-aeea-46a8-b446-b4e0a4257487",
+      "name": "Watermelon",
+      "ppu": 1.0,
+      "tags": ["fruit", "pink", "juicy"],
+      "description": "Watermelon (Citrullus lanatus) is a plant species in the family Cucurbitaceae, a vine-like flowering plant originally domesticated in Africa. It is a highly cultivated fruit worldwide, having more than 1,000 varieties. ",
+      "img": "Watermelon_cross_BNC.jpg"
+    },
+    {
+      "id": "66b2eedf-d40d-42b4-a209-e69837daf78f",
+      "name": "Pineapple",
+      "ppu": 1.29,
+      "tags": ["exotic", "fruit", "yellow"],
+      "description": "The pineapple[2][3] (Ananas comosus) is a tropical plant with an edible fruit and the most economically significant plant in the family Bromeliaceae.[4] The pineapple is indigenous to South America, where it has been cultivated for many centuries. ",
+      "img": "Pineapple_and_cross_section.jpg"
+    },
+    {
+      "id": "5b9ebcb6-41d2-4ec8-90e6-fe478f0275d4",
+      "name": "Coconut",
+      "ppu": 0.61,
+      "tags": ["exotic", "fruit", "drupe", "nut", "milk"],
+      "description": "The coconut tree (Cocos nucifera) is a member of the palm tree family (Arecaceae) and the only living species of the genus Cocos.[1] The term \"coconut\" (or the archaic \"cocoanut\")[2] can refer to the whole coconut palm, the seed, or the fruit, which botanically is a drupe, not a nut.",
+      "img": "Coconut_face.jpg"
+    },
+    {
+      "id": "c0f9b8c0-96a4-4fc0-88c3-eaaf3d3499d4",
+      "name": "Asparagus",
+      "ppu": 1.09,
+      "tags": ["vegetable", "green"],
+      "description": "Asparagus, or garden asparagus, folk name sparrow grass, scientific name Asparagus officinalis, is a perennial flowering plant species in the genus Asparagus. Its young shoots are used as a spring vegetable. ",
+      "img": "800px-Asparagus-Bundle.jpg"
+    }
+  ]
+}
