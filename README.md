@@ -1,2 +1,0 @@
-# greens-grocery
-Tech demo
