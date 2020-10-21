@@ -23,8 +23,9 @@ export const removeFromCart = (product) => (dispatch, getState) => {
   const cartItems = getState().cart.cartItems.slice();
   cartItems.forEach((x) => {
     if (x.id === product.id) {
-      x.count--;
+      if (x.count > 0) x.count--;
     }
+    if (x.count == 0) cartItems.filter((x) => x.id !== product.id);
   });
   dispatch({ type: REMOVE_FROM_CART, payload: { cartItems } });
   localStorage.setItem("cartItems", JSON.stringify(cartItems));

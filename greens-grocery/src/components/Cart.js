@@ -1,14 +1,9 @@
 import React, { Component } from "react";
 import formatCurrency from "../util";
 import { connect } from "react-redux";
-import { removeFromCart } from "../actions/Cart";
 
 class Cart extends Component {
-  handleInput = (e) => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
-
-  render() {
+    render() {
     const { cartItems } = this.props;
     return (
       <div>
@@ -16,7 +11,7 @@ class Cart extends Component {
           <div className="cart cart-header">Cart is empty</div>
         ) : (
           <div className="cart cart-header">
-            You have {cartItems.length} in the cart{" "}
+            Your selected items are below
           </div>
         )}
 
@@ -59,5 +54,5 @@ export default connect(
   (state) => ({
     cartItems: state.cart.cartItems,
   }),
-  { removeFromCart }
+  null
 )(Cart);
