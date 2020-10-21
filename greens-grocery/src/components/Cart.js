@@ -3,16 +3,14 @@ import formatCurrency from "../util";
 import { connect } from "react-redux";
 
 class Cart extends Component {
-    render() {
+  render() {
     const { cartItems } = this.props;
     return (
       <div>
         {cartItems.length === 0 ? (
           <div className="cart cart-header">Cart is empty</div>
         ) : (
-          <div className="cart cart-header">
-            Your selected items are below
-          </div>
+          <div className="cart cart-header">Your selected items are below</div>
         )}
 
         <div>
